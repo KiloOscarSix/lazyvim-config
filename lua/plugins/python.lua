@@ -1,5 +1,5 @@
 return {
-  -- 1. LSP Configuration (from Desktop/HEAD)
+  -- 1. LSP Configuration
   {
     "neovim/nvim-lspconfig",
     opts = {
@@ -19,7 +19,7 @@ return {
     },
   },
 
-  -- 2. Formatter Configuration (from Laptop)
+  -- 2. Formatter Configuration
   {
     "stevearc/conform.nvim",
     opts = {
