@@ -11,3 +11,10 @@ lua/config/local.lua
 .copilot-token
 .env
 
+# Standard Neovim/Lazy ignore
+.netrwhist
+undo/
+*.swp
+
+# Only keep the lockfile, not the backups
+lazy-lock_*.json
