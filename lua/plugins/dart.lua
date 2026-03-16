@@ -1,14 +1,4 @@
 return {
-  -- Dart LSP
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        dartls = {},
-      },
-    },
-  },
-
   -- Treesitter
   {
     "nvim-treesitter/nvim-treesitter",
