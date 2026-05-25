@@ -32,11 +32,7 @@ return {
       "stevearc/dressing.nvim",
     },
     opts = {
-      lsp = {
-        color = {
-          enabled = false,
-        },
-      },
+      lsp = {},
     },
   },
 }
