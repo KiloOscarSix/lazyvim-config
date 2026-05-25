@@ -25,11 +25,6 @@ return {
         -- Only use sqlfluff, no fallbacks
         sql = { "sqlfluff" },
       },
-      format_on_save = {
-        -- Ensure we NEVER fall back to the LSP (sqls)
-        lsp_fallback = false,
-        timeout_ms = 1000,
-      },
       formatters = {
         sqlfluff = {
           cwd = require("conform.util").root_file({ ".git", ".sqlfluff", "package.json" }),
